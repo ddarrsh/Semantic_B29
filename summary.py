@@ -8,8 +8,8 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # store_frames.check()
 # load pretrained processor, tokenizer, and model
 image_processor = AutoImageProcessor.from_pretrained("./videomae-base")
-tokenizer = AutoTokenizer.from_pretrained("./gpt2")
-model = VisionEncoderDecoderModel.from_pretrained("./timesformer-gpt2-video-captioning").to(device)
+tokenizer = AutoTokenizer.from_pretrained("./natural_language_generate")
+model = VisionEncoderDecoderModel.from_pretrained("./DLSG_Trained_Model").to(device)
 
 # load video
 video_path = "./realtimevideos/r_demo16.mp4"      #demo2works#r_demo6works#r_demo7works#r_demo13works#r_demo16
