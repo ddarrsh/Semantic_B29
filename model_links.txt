@@ -1,0 +1,3 @@
+DLSG_Trained_Model:- "https://huggingface.co/Neleac/SpaceTimeGPT/tree/main"
+natural_language_generate:- "https://huggingface.co/openai-community/gpt2/tree/main"
+videomae-base:- "https://huggingface.co/MCG-NJU/videomae-base/tree/main"
