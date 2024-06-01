@@ -24,13 +24,14 @@ Implementing D-LSG yielded significant outcomes, validating graph modeling for c
 
 
 <h1>Proposed DLSG Framework:</h1>
-![Picture1](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/7061b904-52dd-4c0d-8b50-176d3fa28933)
+![Picture1](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/571fffae-1c18-4bfa-aa1e-9c85e30cdf01)
+
   
 
 <h1>Output Snapshots</h1>
-![Screenshot (64)](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/5a191f1b-dfeb-4cd6-80fb-2e61722528a6)
-![Screenshot (62)](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/23119a8d-4922-4614-8a1f-bdeb9e8b4211)
-![Screenshot 2024-05-24 120951](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/65612f27-0e5f-4992-8423-7d7f67148052)
+![Screenshot (64)](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/068db211-358d-4948-9a6c-62dc02a2ddf3)
+![Screenshot 2024-05-24 120951](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/c60a9f82-65fd-4370-83d7-e75b11a7ab1d)
+![Screenshot (62)](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/4289dbdc-43c2-4416-a7bd-1b1ca8a4e8c9)
 
 
 <h1>Live Demo</h1> https://huggingface.co/spaces/daarsh/Semantic_Summarization_of_Videos_B29
