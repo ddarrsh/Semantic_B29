@@ -4,6 +4,11 @@ The project tackles the challenge of generating precise natural language caption
 **Introduction:**
 Video captioning, automating natural language descriptions of videos, remains challenging due to complex spatio-temporal data involved. Existing generative models like encoder-decoders often fail to adequately capture object interactions within frames and their temporal evolution, struggling to produce semantically rich, accurate captions.
 
+
+**Live Demo** https://huggingface.co/spaces/daarsh/Semantic_Summarization_of_Videos_B29
+
+
+
 **Literature Survey:**
 Existing works explored techniques like CNNs, RNNs, graph neural networks and reinforcement learning for video captioning, summarization and description generation. However, they had limitations like weak object proposals, inefficient visual knowledge extraction, and lack of robust caption validation.
 
@@ -14,7 +19,6 @@ The core problem is generating semantically rich and accurate video captions by 
 The D-LSG framework utilizes a Conditional Graph Operation integrating spatio-temporal features to refine region-level object proposals. A Latent Proposal Aggregation module condenses these into compact, high-level semantic visual words. A Discriminative Language Validator then evaluates the generated captions, reconstructing visual words to ensure semantic consistency.
 
 ![Picture1](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/571fffae-1c18-4bfa-aa1e-9c85e30cdf01)
-
 **Implementation:** 
 2D/3D CNNs and R-CNNs extract spatial, temporal, and object features from video frames. Graph neural networks refine object proposals using conditional graph operations. Dynamic graphs aggregate these into visual word embeddings, fed to LSTMs for caption generation. A discriminative module validates by reconstructing visual words and aligning with original descriptors.
 
@@ -29,5 +33,3 @@ Implementing D-LSG yielded significant outcomes, validating graph modeling for c
 ![Screenshot 2024-05-24 120951](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/c60a9f82-65fd-4370-83d7-e75b11a7ab1d)
 ![Screenshot (62)](https://github.com/ddarrsh/Semantic_Summarization_of_Videos_using_DLSG_B29/assets/120782143/4289dbdc-43c2-4416-a7bd-1b1ca8a4e8c9)
 
-
-**Live Demo** https://huggingface.co/spaces/daarsh/Semantic_Summarization_of_Videos_B29
